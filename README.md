@@ -7,7 +7,8 @@ The particular focus is on creating generic, unstyled clientside forms.
 The client class mainly provides methods for building forms, accepting input, and posting to server.
 
 ### `EmuModel.build_form( callback )`
-- optional `callback` on form submission
+- optional `callback` middleware fired on form submission.
+- *The generated form will block the default DOM form submit behavior and fire the Model's `sumbit()` method instead.
 
 ### `EmuModel.hydrate( type, source, overwrite )`
 - enum `type` - 'data' or 'form'
