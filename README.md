@@ -1,6 +1,7 @@
-# EntityModelUnification
-EMU - An ECMA and node class for passing objects easily through many forms on both client and server.  A loose ECS.
-Use these 2 abstract classes for the basic needs of handling user input.
+# EntityModelUmbrella
+EMU - 2 javascript classes for passing objects easily through many forms on both client and server.
+Use these 2 abstract classes for the basic needs of handling large amounts of user input very quickly.
+The particular focus is on creating generic, unstyled clientside forms.
 
 ## client
 The client class mainly provides methods for building forms, accepting input, and posting to server.
